@@ -1,21 +1,22 @@
 source 'https://rubygems.org'
 
-
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
-# Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
+gem 'puma'
 
-gem 'bootstrap-sass'
 gem 'turbolinks'
 gem 'jquery-rails'
-gem 'jquery-turbolinks'
 gem 'uglifier'
+gem 'jbuilder', '~> 2.0'
+
+gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
+end
 
+group :development do
+  gem 'web-console', '~> 2.0'
 end
 
 group :production do
-  gem "rails_12factor"
 end
