@@ -10,6 +10,7 @@ gem 'bootstrap-sass'
 gem 'turbolinks'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
+gem 'uglifier'
 
 group :development, :test do
 
