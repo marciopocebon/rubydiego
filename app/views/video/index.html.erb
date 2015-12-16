@@ -1,0 +1,10 @@
+<% @videos.each do |video| %>
+  <div class="video-thumb col-md-3 col-sm-4">
+    <%= link_to video_path(video.id) do %>
+      <span class="category"><%= video.category_title %></span>
+      <span class="view-count"><%= fa_icon "eye", text: number_with_delimiter(video.view_count, delimiter: ".") %></span>
+      <%= image_tag video.thumbnail_url('medium') %>
+      <h3><%= video.title %></h3>
+    <% end %>
+  </div>
+<% end %>

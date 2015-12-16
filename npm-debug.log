@@ -1,0 +1,380 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'strongloop' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose install initial load of /usr/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/lib/package.json
+6 silly cache add args [ 'strongloop', null ]
+7 verbose cache add spec strongloop
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'strongloop',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'strongloop',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed strongloop@*
+10 verbose addNamed "*" is a valid semver range for strongloop
+11 silly addNameRange { name: 'strongloop', range: '*', hasData: false }
+12 silly mapToRegistry name strongloop
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/strongloop
+16 verbose addNameRange registry:https://registry.npmjs.org/strongloop not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/strongloop
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 11:44:12 AM
+20 verbose request id 7a399f08460d9ffe
+21 verbose etag "1XI57SRHRG21AAK9GOCE1S5ZA"
+22 http request GET https://registry.npmjs.org/strongloop
+23 http 304 https://registry.npmjs.org/strongloop
+24 verbose headers { date: 'Wed, 16 Dec 2015 11:44:09 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   etag: '"1XI57SRHRG21AAK9GOCE1S5ZA"',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-jfk1024-JFK',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1450266249.843739,VS0,VE373',
+24 verbose headers   vary: 'Accept' }
+25 silly get cb [ 304,
+25 silly get   { date: 'Wed, 16 Dec 2015 11:44:09 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     etag: '"1XI57SRHRG21AAK9GOCE1S5ZA"',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-jfk1024-JFK',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1450266249.843739,VS0,VE373',
+25 silly get     vary: 'Accept' } ]
+26 verbose etag https://registry.npmjs.org/strongloop from cache
+27 verbose get saving strongloop to /home/vagrant/.npm/registry.npmjs.org/strongloop/.cache.json
+28 silly addNameRange number 2 { name: 'strongloop', range: '*', hasData: true }
+29 silly addNameRange versions [ 'strongloop',
+29 silly addNameRange   [ '2.0.0-beta1',
+29 silly addNameRange     '2.0.0-beta2',
+29 silly addNameRange     '2.0.0-beta3',
+29 silly addNameRange     '2.0.0-beta4',
+29 silly addNameRange     '2.0.0-beta5',
+29 silly addNameRange     '2.0.0-beta6',
+29 silly addNameRange     '2.0.0-beta7',
+29 silly addNameRange     '2.0.0-beta8',
+29 silly addNameRange     '2.0.0',
+29 silly addNameRange     '2.7.1',
+29 silly addNameRange     '2.7.2',
+29 silly addNameRange     '2.8.0',
+29 silly addNameRange     '2.9.0',
+29 silly addNameRange     '2.9.1',
+29 silly addNameRange     '2.9.2',
+29 silly addNameRange     '2.9.3',
+29 silly addNameRange     '2.10.0',
+29 silly addNameRange     '2.10.1',
+29 silly addNameRange     '2.10.2',
+29 silly addNameRange     '2.10.3',
+29 silly addNameRange     '3.0.0',
+29 silly addNameRange     '3.0.1',
+29 silly addNameRange     '3.0.2',
+29 silly addNameRange     '3.0.3',
+29 silly addNameRange     '3.0.4',
+29 silly addNameRange     '3.0.5',
+29 silly addNameRange     '3.0.6',
+29 silly addNameRange     '3.1.0',
+29 silly addNameRange     '3.1.1',
+29 silly addNameRange     '3.1.2',
+29 silly addNameRange     '4.0.0',
+29 silly addNameRange     '4.0.1',
+29 silly addNameRange     '4.0.2',
+29 silly addNameRange     '4.0.3',
+29 silly addNameRange     '4.0.4',
+29 silly addNameRange     '4.0.5',
+29 silly addNameRange     '4.1.0',
+29 silly addNameRange     '4.1.1',
+29 silly addNameRange     '5.0.0',
+29 silly addNameRange     '5.0.1' ] ]
+30 silly addNamed strongloop@5.0.1
+31 verbose addNamed "5.0.1" is a plain semver version for strongloop
+32 silly cache afterAdd strongloop@5.0.1
+33 verbose afterAdd /home/vagrant/.npm/strongloop/5.0.1/package/package.json not in flight; writing
+34 verbose afterAdd /home/vagrant/.npm/strongloop/5.0.1/package/package.json written
+35 silly install resolved [ { name: 'strongloop',
+35 silly install resolved     version: '5.0.1',
+35 silly install resolved     description: 'StrongLoop Command Line Tools',
+35 silly install resolved     homepage: 'http://www.strongloop.com',
+35 silly install resolved     keywords:
+35 silly install resolved      [ 'Backend',
+35 silly install resolved        'LoopBack',
+35 silly install resolved        'Mobile',
+35 silly install resolved        'Platform',
+35 silly install resolved        'StrongLoop',
+35 silly install resolved        'alerts',
+35 silly install resolved        'analytics',
+35 silly install resolved        'agent',
+35 silly install resolved        'apm',
+35 silly install resolved        'build',
+35 silly install resolved        'bundle',
+35 silly install resolved        'cluster',
+35 silly install resolved        'config',
+35 silly install resolved        'dependencies',
+35 silly install resolved        'deploy',
+35 silly install resolved        'devops',
+35 silly install resolved        'event loop',
+35 silly install resolved        'forever',
+35 silly install resolved        'git',
+35 silly install resolved        'heap',
+35 silly install resolved        'heroku',
+35 silly install resolved        'logging',
+35 silly install resolved        'mBaaS',
+35 silly install resolved        'manager',
+35 silly install resolved        'master',
+35 silly install resolved        'memory',
+35 silly install resolved        'metrics',
+35 silly install resolved        'monitoring',
+35 silly install resolved        'nodeops',
+35 silly install resolved        'npm',
+35 silly install resolved        'npmrc',
+35 silly install resolved        'openshift',
+35 silly install resolved        'ops',
+35 silly install resolved        'performance',
+35 silly install resolved        'pm',
+35 silly install resolved        'process',
+35 silly install resolved        'profiler',
+35 silly install resolved        'profiling',
+35 silly install resolved        'registry',
+35 silly install resolved        'response',
+35 silly install resolved        'runner',
+35 silly install resolved        'service',
+35 silly install resolved        'slc',
+35 silly install resolved        'slowest functions',
+35 silly install resolved        'streams',
+35 silly install resolved        'strong-agent',
+35 silly install resolved        'strong-cli',
+35 silly install resolved        'strong-cluster-control',
+35 silly install resolved        'strong-pm',
+35 silly install resolved        'strong-supervisor',
+35 silly install resolved        'strongloop',
+35 silly install resolved        'strongops',
+35 silly install resolved        'supervisor',
+35 silly install resolved        'switch',
+35 silly install resolved        'time',
+35 silly install resolved        'upstart' ],
+35 silly install resolved     repository:
+35 silly install resolved      { type: 'git',
+35 silly install resolved        url: 'git://github.com/strongloop/strongloop.git' },
+35 silly install resolved     author: { name: 'engineering@strongloop.com' },
+35 silly install resolved     license: 'Artistic-2.0',
+35 silly install resolved     bin:
+35 silly install resolved      { slc: './bin/slc.js',
+35 silly install resolved        'lb-ng': './node_modules/loopback-sdk-angular-cli/bin/lb-ng',
+35 silly install resolved        'lb-ng-doc': './node_modules/loopback-sdk-angular-cli/bin/lb-ng-doc' },
+35 silly install resolved     scripts:
+35 silly install resolved      { pretest: 'eslint --ignore-path .gitignore . && jscs .',
+35 silly install resolved        test: 'tap --bail test/test-*.*' },
+35 silly install resolved     dependencies:
+35 silly install resolved      { async: '^0.9.0',
+35 silly install resolved        debug: '^2.1.0',
+35 silly install resolved        'generator-loopback': '1.x',
+35 silly install resolved        'loopback-sdk-angular-cli': '1.x',
+35 silly install resolved        'node-inspector': '~0.7.0',
+35 silly install resolved        'nodefly-register': '~0.3.2',
+35 silly install resolved        nopt: '~3.0.1',
+35 silly install resolved        optimist: '^0.6.1',
+35 silly install resolved        read: '~1.0.5',
+35 silly install resolved        'strong-agent': '^1.5.0',
+35 silly install resolved        'strong-arc': '^1.2.0',
+35 silly install resolved        'strong-build': '^2.0.0',
+35 silly install resolved        'strong-deploy': '^3.x',
+35 silly install resolved        'strong-mesh-models': '^8.0.0',
+35 silly install resolved        'strong-pm': '^5.0.0',
+35 silly install resolved        'strong-registry': '^1.0.0',
+35 silly install resolved        'strong-start': '^1.1.0',
+35 silly install resolved        'strong-supervisor': '^3.0.0',
+35 silly install resolved        which: '^1.1.1',
+35 silly install resolved        acorn: '^0.9.0',
+35 silly install resolved        'ansi-regex': '^1.1.1',
+35 silly install resolved        bluebird: '^2.9.24',
+35 silly install resolved        'brace-expansion': '^1.1.0',
+35 silly install resolved        compression: '^1.4.3',
+35 silly install resolved        'connect-timeout': '^1.6.1',
+35 silly install resolved        'cookie-parser': '^1.3.4',
+35 silly install resolved        'cookie-session': '^1.1.0',
+35 silly install resolved        'core-util-is': '^1.0.1',
+35 silly install resolved        csurf: '^1.8.0',
+35 silly install resolved        errorhandler: '^1.3.5',
+35 silly install resolved        'express-session': '^1.11.1',
+35 silly install resolved        inflight: '^1.0.4',
+35 silly install resolved        inherits: '^2.0.1',
+35 silly install resolved        JSONStream: '^1.0.3',
+35 silly install resolved        lodash: '^3.0.0',
+35 silly install resolved        loopback: '^2.17.0',
+35 silly install resolved        'loopback-boot': '^2.7.0',
+35 silly install resolved        'loopback-datasource-juggler': '^2.26.0',
+35 silly install resolved        'loopback-explorer': '^1.7.0',
+35 silly install resolved        'loopback-workspace': '^3.11.0',
+35 silly install resolved        'method-override': '^2.3.2',
+35 silly install resolved        'mime-db': '~1.8.0',
+35 silly install resolved        'mime-types': '^2.0.10',
+35 silly install resolved        minimatch: '^2.0.4',
+35 silly install resolved        minkelite: '^1.0.0',
+35 silly install resolved        morgan: '^1.5.2',
+35 silly install resolved        ms: '0.7.0',
+35 silly install resolved        once: '^1.3.1',
+35 silly install resolved        qs: '^2.4.1',
+35 silly install resolved        'readable-stream': '^1.0.33',
+35 silly install resolved        'response-time': '^2.3.0',
+35 silly install resolved        'serve-favicon': '^2.2.0',
+35 silly install resolved        'serve-index': '^1.6.3',
+35 silly install resolved        'serve-static': '^1.9.2',
+35 silly install resolved        'sl-blip': 'http://blip.strongloop.com/strongloop@5.0.1',
+35 silly install resolved        vhost: '^3.0.0',
+35 silly install resolved        wrappy: '^1.0.1',
+35 silly install resolved        ws: '^0.8.0' },
+35 silly install resolved     devDependencies: { eslint: '^1.1.0', jscs: '^1.11.3', tap: '^1.3.1' },
+35 silly install resolved     optionalDependencies:
+35 silly install resolved      { acorn: '^0.9.0',
+35 silly install resolved        'ansi-regex': '^1.1.1',
+35 silly install resolved        bluebird: '^2.9.24',
+35 silly install resolved        'brace-expansion': '^1.1.0',
+35 silly install resolved        compression: '^1.4.3',
+35 silly install resolved        'connect-timeout': '^1.6.1',
+35 silly install resolved        'cookie-parser': '^1.3.4',
+35 silly install resolved        'cookie-session': '^1.1.0',
+35 silly install resolved        'core-util-is': '^1.0.1',
+35 silly install resolved        csurf: '^1.8.0',
+35 silly install resolved        errorhandler: '^1.3.5',
+35 silly install resolved        'express-session': '^1.11.1',
+35 silly install resolved        inflight: '^1.0.4',
+35 silly install resolved        inherits: '^2.0.1',
+35 silly install resolved        JSONStream: '^1.0.3',
+35 silly install resolved        lodash: '^3.0.0',
+35 silly install resolved        loopback: '^2.17.0',
+35 silly install resolved        'loopback-boot': '^2.7.0',
+35 silly install resolved        'loopback-datasource-juggler': '^2.26.0',
+35 silly install resolved        'loopback-explorer': '^1.7.0',
+35 silly install resolved        'loopback-workspace': '^3.11.0',
+35 silly install resolved        'method-override': '^2.3.2',
+35 silly install resolved        'mime-db': '~1.8.0',
+35 silly install resolved        'mime-types': '^2.0.10',
+35 silly install resolved        minimatch: '^2.0.4',
+35 silly install resolved        minkelite: '^1.0.0',
+35 silly install resolved        morgan: '^1.5.2',
+35 silly install resolved        ms: '0.7.0',
+35 silly install resolved        once: '^1.3.1',
+35 silly install resolved        qs: '^2.4.1',
+35 silly install resolved        'readable-stream': '^1.0.33',
+35 silly install resolved        'response-time': '^2.3.0',
+35 silly install resolved        'serve-favicon': '^2.2.0',
+35 silly install resolved        'serve-index': '^1.6.3',
+35 silly install resolved        'serve-static': '^1.9.2',
+35 silly install resolved        'sl-blip': 'http://blip.strongloop.com/strongloop@5.0.1',
+35 silly install resolved        vhost: '^3.0.0',
+35 silly install resolved        wrappy: '^1.0.1',
+35 silly install resolved        ws: '^0.8.0' },
+35 silly install resolved     gitHead: 'fcd41199e2ab04ed7abd6478be3344fbf29479b1',
+35 silly install resolved     bugs: { url: 'https://github.com/strongloop/strongloop/issues' },
+35 silly install resolved     _id: 'strongloop@5.0.1',
+35 silly install resolved     _shasum: 'ff465e1f961c1b620869b9d737dd90656fde1b78',
+35 silly install resolved     _from: 'strongloop@*',
+35 silly install resolved     _npmVersion: '2.14.4',
+35 silly install resolved     _nodeVersion: '4.1.1',
+35 silly install resolved     _npmUser: { name: 'octet', email: 'sam@strongloop.com' },
+35 silly install resolved     maintainers:
+35 silly install resolved      [ [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object] ],
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: 'ff465e1f961c1b620869b9d737dd90656fde1b78',
+35 silly install resolved        tarball: 'http://registry.npmjs.org/strongloop/-/strongloop-5.0.1.tgz' },
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/strongloop/-/strongloop-5.0.1.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install strongloop@5.0.1 into /usr/lib
+37 info installOne strongloop@5.0.1
+38 verbose installOne of strongloop to /usr/lib not in flight; installing
+39 verbose lock using /home/vagrant/.npm/_locks/strongloop-59db96d40e8fdf34.lock for /usr/lib/node_modules/strongloop
+40 silly install write writing strongloop 5.0.1 to /usr/lib/node_modules/strongloop
+41 verbose unbuild lib/node_modules/strongloop
+42 info preuninstall strongloop@5.0.1
+43 info uninstall strongloop@5.0.1
+44 verbose unbuild rmStuff strongloop@5.0.1 from /usr/lib/node_modules
+45 silly gentlyRm /usr/bin/slc is being gently removed
+46 silly gentlyRm verifying /usr is an npm working directory
+47 silly gentlyRm /usr/bin/lb-ng is being gently removed
+48 silly gentlyRm verifying /usr is an npm working directory
+49 silly gentlyRm /usr/bin/lb-ng-doc is being gently removed
+50 silly gentlyRm verifying /usr is an npm working directory
+51 silly gentlyRm containing path /usr is under npm's control, in /usr
+52 silly gentlyRm deletion target /usr/bin/slc is under /usr
+53 verbose gentlyRm vacuuming from /usr/bin/slc up to /usr
+54 silly gentlyRm containing path /usr is under npm's control, in /usr
+55 silly gentlyRm deletion target /usr/bin/lb-ng is under /usr
+56 verbose gentlyRm vacuuming from /usr/bin/lb-ng up to /usr
+57 silly gentlyRm containing path /usr is under npm's control, in /usr
+58 silly gentlyRm deletion target /usr/bin/lb-ng-doc is under /usr
+59 verbose gentlyRm vacuuming from /usr/bin/lb-ng-doc up to /usr
+60 info postuninstall strongloop@5.0.1
+61 silly gentlyRm /usr/lib/node_modules/strongloop is being purged from base /usr
+62 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/strongloop
+63 silly vacuum-fs purging /usr/lib/node_modules/strongloop
+64 verbose unlock done using /home/vagrant/.npm/_locks/strongloop-59db96d40e8fdf34.lock for /usr/lib/node_modules/strongloop
+65 verbose stack Error: EACCES: permission denied, rmdir '/usr/lib/node_modules/strongloop'
+65 verbose stack     at Error (native)
+66 verbose cwd /vagrant/ruby/app
+67 error Linux 3.13.0-71-generic
+68 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "strongloop"
+69 error node v4.2.3
+70 error npm  v2.14.7
+71 error path /usr/lib/node_modules/strongloop
+72 error code EACCES
+73 error errno -13
+74 error syscall rmdir
+75 error Error: EACCES: permission denied, rmdir '/usr/lib/node_modules/strongloop'
+75 error     at Error (native)
+75 error  { [Error: EACCES: permission denied, rmdir '/usr/lib/node_modules/strongloop']
+75 error   errno: -13,
+75 error   code: 'EACCES',
+75 error   syscall: 'rmdir',
+75 error   path: '/usr/lib/node_modules/strongloop' }
+76 error Please try running this command again as root/Administrator.
+77 verbose exit [ -13, true ]
+78 verbose unbuild lib/node_modules/strongloop
+79 info preuninstall strongloop@5.0.1
+80 info uninstall strongloop@5.0.1
+81 verbose unbuild rmStuff strongloop@5.0.1 from /usr/lib/node_modules
+82 silly gentlyRm /usr/bin/slc is being gently removed
+83 silly gentlyRm verifying /usr is an npm working directory
+84 silly gentlyRm /usr/bin/lb-ng is being gently removed
+85 silly gentlyRm verifying /usr is an npm working directory
+86 silly gentlyRm /usr/bin/lb-ng-doc is being gently removed
+87 silly gentlyRm verifying /usr is an npm working directory
+88 silly gentlyRm containing path /usr is under npm's control, in /usr
+89 silly gentlyRm deletion target /usr/bin/slc is under /usr
+90 verbose gentlyRm vacuuming from /usr/bin/slc up to /usr
+91 silly gentlyRm containing path /usr is under npm's control, in /usr
+92 silly gentlyRm deletion target /usr/bin/lb-ng is under /usr
+93 verbose gentlyRm vacuuming from /usr/bin/lb-ng up to /usr
+94 silly gentlyRm containing path /usr is under npm's control, in /usr
+95 silly gentlyRm deletion target /usr/bin/lb-ng-doc is under /usr
+96 verbose gentlyRm vacuuming from /usr/bin/lb-ng-doc up to /usr
+97 info postuninstall strongloop@5.0.1
+98 silly gentlyRm /usr/lib/node_modules/strongloop is being purged from base /usr
+99 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/strongloop
+100 silly vacuum-fs purging /usr/lib/node_modules/strongloop
+101 error error rolling back Error: EACCES: permission denied, rmdir '/usr/lib/node_modules/strongloop'
+101 error error rolling back     at Error (native)
+101 error error rolling back  { [Error: EACCES: permission denied, rmdir '/usr/lib/node_modules/strongloop']
+101 error error rolling back   errno: -13,
+101 error error rolling back   code: 'EACCES',
+101 error error rolling back   syscall: 'rmdir',
+101 error error rolling back   path: '/usr/lib/node_modules/strongloop' }

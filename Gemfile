@@ -10,9 +10,13 @@ gem 'uglifier'
 gem 'jbuilder', '~> 2.0'
 
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-generators', '~> 3.3.4'
+gem 'font-awesome-rails'
 gem 'autoprefixer-rails'
 
 gem 'bcrypt', '~> 3.1.7'
+
+gem 'yt', '~> 0.25.5'
 
 group :development, :test do
 end

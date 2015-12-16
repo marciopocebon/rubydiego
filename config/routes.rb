@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
-  resources :articles do
-    resources :comments
-  end
+  resources :video, only: [:index, :show]
 
-  root 'articles#index'
-
+  root 'video#index'
 end

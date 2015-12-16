@@ -33,3 +33,7 @@ module App
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+Yt.configure do |config|
+  config.api_key = 'AIzaSyCL66ljZAI7E6fhJaydRu0vC_ujorcAL_U'
+end
